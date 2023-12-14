@@ -34,6 +34,8 @@ public class Teacher implements User {
         System.out.println("Qualification : " +qualification);
         System.out.println("designation:"+ designation);
         System.out.println("Year of experience :" + experience);
+        System.out.println("All Teachers are good");
+        //Adding Some Extra feature
 
     }
 
