@@ -27,6 +27,7 @@ public class Student implements User {
         System.out.println("Age:" + age);
         System.out.println("Address:" + address);
         System.out.println("Student_Type: "+student_Type);
+        System.out.println("Ok");
 
     }
 
@@ -89,7 +90,7 @@ class PostGraduatestudent extends Student implements  Teachable{
     @Override
     public void study() {
 
-        System.out.println("Postgraduate student " + name + " is studying.");
+        System.out.println("Postgraduate Student " + name + " is studying.");
     }
 
     @Override
